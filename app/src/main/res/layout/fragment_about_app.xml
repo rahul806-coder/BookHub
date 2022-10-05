@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rahul.bookhub.fragments.AboutAppFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtAboutApp"
+        android:layout_width="400dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Book summary apps can help you both pass the time and expand your knowledge. There are many book summary apps out there to help you get core ideas from the book. By reading the book summary, you get to know a brief insight into the content of the book. It contains all the important ideas of the original text and acts as the help book summary.
+
+These book summary apps and websites saves your time by learning the key insights of best selling books in minutes. You can now keep moving on to the next book in your library until the summary fits your kind of mindset and lifestyle. You can read, listen or watch summaries anywhere anytime."
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>
